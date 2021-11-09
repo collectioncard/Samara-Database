@@ -1,0 +1,154 @@
+[
+    {
+        "tokens": ["Please", "search", "wikipedia", "for", "turtles", "."],
+        "labels": ["NONE", "NONE", "FUNC", "NONE", "QUERY", "NONE"]
+    },
+    {
+        "tokens": ["Can", "you", "search", "wikipedia", "for", "robots", "?"],
+        "labels": ["NONE","NONE","NONE", "FUNC", "NONE", "QUERY", "NONE"]
+    },
+    {
+        "tokens": ["What", "does", "wikipedia", "say", "about", "usb", "cables", "?"],
+        "labels": ["NONE","NONE", "FUNC", "NONE","NONE", "QUERY", "QUERY", "NONE"]
+    },
+    {
+        "tokens": ["Does", "discord", "have", "an", "article", "on", "wikipedia", "?"],
+        "labels": ["NONE", "QUERY", "NONE", "NONE", "NONE", "NONE", "FUNC", "NONE"]
+    },
+    {
+        "tokens": ["What", "does", "wikipedia", "say", "about", "the", "big", "bang", "theory", "?"],
+        "labels": ["NONE","NONE", "FUNC", "NONE","NONE", "QUERY", "QUERY", "QUERY", "QUERY", "NONE"]
+    },
+    {
+        "tokens": ["Can", "you", "show", "me", "the", "article", "on", "mercury", "on", "wikipedia", "?"],
+        "labels": ["NONE","NONE","NONE","NONE","NONE","NONE","NONE", "QUERY", "NONE", "FUNC", "NONE"]
+    },
+    {
+        "tokens": ["What", "is", "the", "wikipedia", "article", "on", "Macbooks", "?"],
+        "labels": ["NONE","NONE","NONE", "FUNC", "NONE", "NONE", "QUERY", "NONE"]
+    },
+    {
+        "tokens": ["Wikipedia", "frog"],
+        "labels": ["FUNC", "QUERY"]
+    },
+    {
+        "tokens": ["CHICKEN", "NUGGETS", "ON", "WIKIPEDIA", "NOW", "!"],
+        "labels": ["QUERY", "QUERY", "NONE", "FUNC", "NONE", "NONE"]
+    },
+    {
+        "tokens": ["Whats", "the", "wikipedia", "article", "on", "Hell", ",", "Michigan"],
+        "labels": ["NONE", "NONE", "FUNC", "NONE", "NONE", "QUERY", "QUERY", "QUERY"]
+    },
+    {
+        "tokens": ["what", "is", "the", "wikipedia", "article", "on", "Flint", "Michigan", "?" ],
+        "labels": ["NONE", "NONE", "NONE", "FUNC", "NONE", "NONE", "QUERY", "QUERY", "NONE"]
+    },
+    {
+        "tokens": ["lookup", "emoji", "on", "wikipedia", "."],
+        "labels": ["NONE", "QUERY", "NONE", "FUNC", "NONE"]
+    },
+    {
+        "tokens": ["I", "want", "to", "see", "potassium", "on", "wikipedia"],
+        "labels": ["NONE", "NONE", "NONE", "NONE", "QUERY", "NONE", "FUNC"]
+    },
+    {
+        "tokens": ["Mario", "wikipedia"],
+        "labels": ["QUERY", "FUNC"]
+    },
+    {
+        "tokens": ["I", "wish", "to", "see", "the", "wikipedia", "page", "for", "ducks"],
+        "labels": ["NONE", "NONE", "NONE", "NONE", "NONE", "FUNC", "NONE", "NONE", "QUERY"]
+    },
+    {
+        "tokens": ["what", "does", "wikipedia", "say", "about", "Inuit", "clothing"],
+        "labels": ["NONE", "NONE", "FUNC", "NONE", "NONE", "QUERY", "QUERY"]
+    },
+    {
+        "tokens": ["Search", "for", "hippopotamus", "on", "wikipedia"],
+        "labels": ["NONE", "NONE", "QUERY", "NONE", "FUNC"]
+    },
+    {
+        "tokens": ["Is", "there", "a", "page", "for", "pizza", "farms", "on", "wikipedia"],
+        "labels": ["NONE", "NONE", "NONE", "NONE", "NONE", "QUERY", "QUERY", "NONE", "FUNC"]
+    },
+    {
+        "tokens": ["Is", "there", "a", "wikipedia", "article", "for", "spite", "houses"],
+        "labels": ["NONE", "NONE", "NONE", "FUNC", "NONE", "NONE", "QUERY", "QUERY"]
+    },
+    {
+        "tokens": ["Does", "rough", "and", "ready", "california", "have", "a", "wikipedia", "article", "?"],
+        "labels": ["NONE", "QUERY", "QUERY", "QUERY", "QUERY", "NONE", "NONE", "FUNC", "NONE", "NONE"]
+    },
+    {
+        "tokens": ["wikipedia", "Clifford", "the", "big", "red", "dog"],
+        "labels": ["FUNC", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY"]
+    },
+    {
+        "tokens": ["Jazzy", "Jellies", "Wikipedia"],
+        "labels": ["QUERY", "QUERY", "FUNC"]
+    },
+    {
+        "tokens": ["what", "is", "new", "primitivism", "according", "to", "wikipedia"],
+        "labels": ["NONE", "NONE", "QUERY", "QUERY", "NONE", "NONE", "FUNC"]
+    },
+    {
+        "tokens": ["what", "is", "a", "chicken", "nugget", "according", "to", "wikipedia"],
+        "labels": ["NONE", "NONE","NONE", "QUERY", "QUERY", "NONE", "NONE", "FUNC"]
+    },
+    {
+        "tokens": ["where", "is", "dneprovsky", "according", "to", "wikipedia"],
+        "labels": ["NONE", "NONE", "QUERY", "NONE", "NONE", "FUNC"]
+    },
+    {
+        "tokens": ["what", "is", "wikipedia", "according", "to", "Wikipedia"],
+        "labels": ["NONE", "NONE", "QUERY", "NONE", "NONE", "FUNC"]
+    },
+    {
+        "tokens": ["who", "does", "wikipedia", "say", "sean", "is"],
+        "labels": ["NONE", "NONE", "FUNC", "NONE", "QUERY", "NONE"]
+    },
+    {
+        "tokens": ["who", "does", "wikipedia", "say", "sean", "roberts", "is"],
+        "labels": ["NONE", "NONE", "FUNC", "NONE", "QUERY", "QUERY", "NONE"]
+    },
+    {
+        "tokens": ["who", "is", "rebecca", "according", "to", "wikipedia"],
+        "labels": ["NONE", "NONE", "QUERY", "NONE", "NONE", "FUNC"] 
+    },
+    {
+        "tokens": ["what", "does", "wikipedia", "say", "a", "coin", "is"],
+        "labels": ["NONE", "NONE", "FUNC", "NONE", "NONE", "QUERY", "NONE"]
+    },
+    {
+        "tokens": ["what", "does", "google", "have", "to", "say", "about", "the", "lawnchair", "larry", "flight"],
+        "labels": ["NONE", "NONE", "FUNC", "NONE", "NONE", "NONE", "NONE", "NONE", "QUERY", "QUERY", "QUERY"]
+    },
+    {
+        "tokens": ["purple", "tang", "google"],
+        "labels": ["QUERY", "QUERY", "FUNC"]
+    },
+    {
+        "tokens": ["what", "is", "a", "picture", "according", "to", "google"],
+        "labels": ["NONE", "NONE", "QUERY", "QUERY", "NONE", "NONE", "FUNC"]
+    },
+    {
+        "tokens": ["what", "is", "an", "Amazon", "alexa", "according", "to", "google"],
+        "labels": ["NONE", "NONE","NONE", "QUERY", "QUERY", "NONE", "NONE", "FUNC"]
+    },
+    {
+        "tokens": ["Does", "google", "have", "a", "page", "on", "what", "is", "used", "to", "make", "manna", "tumbler", "cups", "?"],
+        "labels": ["NONE", "FUNC", "NONE", "NONE", "NONE", "NONE", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "NONE"]
+    },
+    {
+        "tokens": ["can", "you", "search", "wikipedia", "for", "North", "Korea", "–", "Portugal", "relations"],
+        "labels": ["NONE", "NONE","NONE", "FUNC", "NONE", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY"]
+    },
+    {
+        "tokens": ["what", "does", "wikipedia", "have", "to", "say", "on", "the", "Leipzig-Probstzella", "railway"],
+        "labels": ["NONE", "NONE", "FUNC", "NONE", "NONE", "NONE", "NONE", "NONE", "QUERY", "QUERY"]
+    },
+    {
+        "tokens": ["I", "bet", "that", "you", "couldnt", "search", "google", "for", "virginia", "state", "route", "765", "even", "if", "you", "tried"],
+        "labels": ["NONE", "NONE", "NONE", "NONE", "NONE", "NONE", "FUNC", "NONE", "QUERY", "QUERY", "QUERY", "QUERY", "NONE", "NONE", "NONE", "NONE"]
+    }
+]

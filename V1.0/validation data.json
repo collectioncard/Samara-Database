@@ -1,0 +1,110 @@
+[
+    {
+        "tokens": ["Please", "search", "wikipedia", "for", "frogs", "."],
+        "labels": ["NONE", "NONE", "FUNC", "NONE", "QUERY", "NONE"]
+    },
+    {
+        "tokens": ["Can", "you", "please", "search", "wikipedia", "for", "robots", "?"],
+        "labels": ["NONE","NONE","NONE", "NONE", "FUNC", "NONE", "QUERY", "NONE"]
+    },
+    {
+        "tokens": ["What", "does", "wikipedia", "say", "about", "HDMI", "cables", "?"],
+        "labels": ["NONE","NONE", "FUNC", "NONE","NONE", "QUERY", "QUERY", "NONE"]
+    },
+    {
+        "tokens": ["Does", "apple", "have", "an", "article", "on", "wikipedia", "?"],
+        "labels": ["NONE", "QUERY", "NONE", "NONE", "NONE", "NONE", "FUNC", "NONE"]
+    },
+    {
+        "tokens": ["What", "does", "wikipedia", "say", "about", "the", "taylor", "series", "?"],
+        "labels": ["NONE","NONE", "FUNC", "NONE","NONE", "QUERY", "QUERY", "QUERY", "NONE"]
+    },
+    {
+        "tokens": ["Can", "you", "show", "me", "the", "article", "on", "pluto", "on", "wikipedia", "?"],
+        "labels": ["NONE","NONE","NONE","NONE","NONE","NONE","NONE", "QUERY", "NONE", "FUNC", "NONE"]
+    },
+    {
+        "tokens": ["What", "is", "the", "wikipedia", "article", "on", "logitech", "?"],
+        "labels": ["NONE","NONE","NONE", "FUNC", "NONE", "NONE", "QUERY", "NONE"]
+    },
+    {
+        "tokens": ["Wikipedia", "dog"],
+        "labels": ["FUNC", "QUERY"]
+    },
+    {
+        "tokens": ["CHICKEN", "TENDERS", "ON", "WIKIPEDIA", "NOW", "!"],
+        "labels": ["QUERY", "QUERY", "NONE", "FUNC", "NONE", "NONE"]
+    },
+    {
+        "tokens": ["Whats", "the", "wikipedia", "article", "on", "Carlsbad", ",", "California"],
+        "labels": ["NONE", "NONE", "FUNC", "NONE", "NONE", "QUERY", "QUERY", "QUERY"]
+    },
+    {
+        "tokens": ["what", "is", "the", "wikipedia", "article", "on", "Tampa", "Florida", "?" ],
+        "labels": ["NONE", "NONE", "NONE", "FUNC", "NONE", "NONE", "QUERY", "QUERY", "NONE"]
+    },
+    {
+        "tokens": ["lookup", "CoreML", "on", "wikipedia", "."],
+        "labels": ["NONE", "QUERY", "NONE", "FUNC", "NONE"]
+    },
+    {
+        "tokens": ["I", "want", "to", "see", "webcams", "on", "wikipedia"],
+        "labels": ["NONE", "NONE", "NONE", "NONE", "QUERY", "NONE", "FUNC"]
+    },
+    {
+        "tokens": ["Starcraft", "wikipedia"],
+        "labels": ["QUERY", "FUNC"]
+    },
+    {
+        "tokens": ["I", "wish", "to", "see", "the", "wikipedia", "page", "for", "animals"],
+        "labels": ["NONE", "NONE", "NONE", "NONE", "NONE", "FUNC", "NONE", "NONE", "QUERY"]
+    },
+    {
+        "tokens": ["what", "does", "wikipedia", "say", "about", "arctic", "clothing"],
+        "labels": ["NONE", "NONE", "FUNC", "NONE", "NONE", "QUERY", "QUERY"]
+    },
+    {
+        "tokens": ["Search", "for", "Mustang", "on", "wikipedia"],
+        "labels": ["NONE", "NONE", "QUERY", "NONE", "FUNC"]
+    },
+    {
+        "tokens": ["Is", "there", "a", "page", "for", "bitcoin", "miners", "on", "wikipedia"],
+        "labels": ["NONE", "NONE", "NONE", "NONE", "NONE", "QUERY", "QUERY", "NONE", "FUNC"]
+    },
+    {
+        "tokens": ["Is", "there", "a", "wikipedia", "article", "for", "Apple", "iphones"],
+        "labels": ["NONE", "NONE", "NONE", "FUNC", "NONE", "NONE", "QUERY", "QUERY"]
+    },
+    {
+        "tokens": ["Does", "Xbox", "360", "console", "generation", "have", "a", "wikipedia", "article", "?"],
+        "labels": ["NONE", "QUERY", "QUERY", "QUERY", "QUERY", "NONE", "NONE", "FUNC", "NONE", "NONE"]
+    },
+    {
+        "tokens":["wikipedia", "Rex", "the", "small", "green", "parrot"],
+        "labels":["FUNC", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY"]
+    },
+    {
+        "tokens": ["purple", "tang", "Wikipedia"],
+        "labels": ["QUERY", "QUERY", "FUNC"]
+    },
+    {
+        "tokens": ["what", "is", "a", "picture", "according", "to", "wikipedia"],
+        "labels": ["NONE", "NONE", "QUERY", "QUERY", "NONE", "NONE", "FUNC"]
+    },
+    {
+        "tokens": ["what", "is", "an", "Amazon", "alexa", "according", "to", "wikipedia"],
+        "labels": ["NONE", "NONE","NONE", "QUERY", "QUERY", "NONE", "NONE", "FUNC"]
+    },
+    {
+        "tokens": ["Is", "there", "a", "google", "article", "for", "Apple", "iphones"],
+        "labels": ["NONE", "NONE", "NONE", "FUNC", "NONE", "NONE", "QUERY", "QUERY"]
+    },
+    {
+        "tokens": ["Does", "Xbox", "360", "console", "generation", "have", "a", "google", "article", "?"],
+        "labels": ["NONE", "QUERY", "QUERY", "QUERY", "QUERY", "NONE", "NONE", "FUNC", "NONE", "NONE"]
+    },
+    {
+        "tokens":["google", "Rex", "the", "small", "green", "parrot"],
+        "labels":["FUNC", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY"]
+    }
+]
